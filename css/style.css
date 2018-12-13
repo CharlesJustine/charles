@@ -1,0 +1,240 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #f1f2f9;
+
+}
+	
+ul{
+	position: fixed;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+}
+ul li{
+	list-style: none;
+}
+#one{
+	margin-left: 5%;
+}
+#two{
+	margin-left: 2%
+}
+#three{
+	margin-left: 20%
+}
+#four{
+	margin-left: 13%
+}
+ul li a{
+	display: block;
+	text-decoration: none;
+	height: 30px;
+	line-height: 30px;
+	font-size: 24px;
+	background: #c9af9890;
+	width: 140px;
+	font-family: century gothic;
+	color: #f9f8fd;
+	font-size: 20px;
+	margin: 4px 0;
+	padding-left: 20px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	position: relative;
+	left: -120px;
+	transition: 0.3s;
+}
+ul li a:hover{
+	background: #3a466090;
+	color: #f9f8fd;
+	left: 0;
+}
+#container{
+	width: 100%;
+	height: 100vh;
+	scroll-behavior: smooth;
+	overflow-y: scroll; 
+}
+#container div{
+	position: relative;
+}
+#about-me{
+	color: #f9f8fd;
+	font-family: century gothic;
+	height: 100%;
+}
+#about-me h1{
+	position: absolute;
+	font-weight: 100;
+	top: 70%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;	
+}
+#about-me h4{
+	position: absolute;
+	top: 75%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;	
+}
+#about-me p{
+	background: #3a466090;
+	position: absolute;
+	top: 85%;
+	font-size: 20px;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;	
+}
+#container div#about-me{
+	background-image: url(../images/1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#container div#education{
+	background:#f1f2f9;
+	color:  #f9f8fd;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.edu{
+	background-color: #3a4660;
+	grid-column: 2/6;
+}
+.edu h1{
+	padding: 0 10px 0 10px;
+	font-family: century gothic;
+	letter-spacing: 1px;
+	font-weight: 200;
+}
+.edu h6{
+	font-size: 12px;
+}
+#edu1{
+	font-family: century gothic;
+	padding-left: 10px;
+	border-bottom: solid 1px;
+	position: relative;
+}
+#edu2{
+	font-family: century gothic;
+	padding-left: 10px;
+	border-bottom: solid 1px;
+	position: relative;
+}
+#edu3{
+	font-family: century gothic;
+	padding-left: 10px;
+	border-bottom: solid 1px;
+	position: relative;
+}
+#container div#skills{
+	background: #f1f2f9;
+	height: 100%;
+}
+.center{
+	width: 40%;
+	top: 5%;
+	left: 35%;
+	padding: 20px;
+	background: #3a4660;
+	box-sizing: border-box;
+	box-shadow: 0 20px 50px rgba(0,0,0,.5)
+}
+.center h1{
+	font-family: century gothic;
+	margin: 0;
+	padding: 0;
+	color: #ed8a63;
+	letter-spacing: 2px;
+}
+.skillbox{
+	box-sizing: border-box;
+	width: 100%;
+	margin: 20px 0;
+}
+.skillbox p{
+	color: #c9af98;
+	margin: 0 0 10px;
+	padding: 0;
+	font-family: century gothic;
+	letter-spacing: 1px;
+}
+.skillbox p:nth-child(2){
+	float: right;
+	position: relative;
+	top: -25px;
+}
+.skill{
+	background: #262626;
+	padding: 4px;
+	box-sizing: border-box;
+	border: 1px solid #ed8a63;
+}
+.skill-level{
+	background: #ed8a63;
+	width: 100%;
+	height: 10px;
+}
+#container div#contact{
+	background: #f1f2f9;
+	text-align: center;
+	height: 100%;
+	font-family: century gothic;
+}
+#contact h1{
+	font-size: 32px;
+}
+#contact h2{
+	font-size: 16px;
+}
+
+
+form{
+	margin-top: 50px;
+}
+.form-control{
+	width: 600px;
+	background:transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	margin-bottom: 16px;
+}
+input{
+	height: 45px;
+}
+form .submit{
+	background:  #ed8a63;
+	border-color: transparent;
+	color: #3a4660;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+form .submit:hover{
+	background-color: #3a4660;
+	color: #ed8a63;
+	cursor: pointer;
+}
+#footer{
+	text-align: center;
+	font-family: century gothic;
+	background-color: #3a4660;
+	color: #f1f2f9;
+	padding: 5px;
+}
